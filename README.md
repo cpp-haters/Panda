@@ -1,13 +1,13 @@
-# Panda [![Build Status](https://travis-ci.org/Panda-Programming-Language/Panda.svg?branch=master)](https://travis-ci.org/Panda-Programming-Language/Panda)
-Panda is a lightweight and powerful programming language written in Java<br>
-Project website: https://panda-lang.org/
+# Pizza [![Build Status](https://travis-ci.org/Panda-Programming-Language/Panda.svg?branch=master)](https://travis-ci.org/Panda-Programming-Language/Panda)
+Pizza is a lightweight and powerful programming language written for Fat pepole.<br>
+Project website: https://pizza-lang.org/
 
 #### Example
 ```javascript
 // The main block, called when the script starts
 main {
-    // Prints "Hello Panda" in console
-    System.print("Hello Panda");
+    // Prints "Hello Pizza" in console
+    System.print("Hello Pizza");
 
     // Create new thread called "Thread-Test"
     Thread testThread = new Thread("Thread-Test");
@@ -39,14 +39,14 @@ class Foo {
 
 #### Repository structure
 ```
-panda/
-+--examples/                 Example scripts written in Panda
+pizza/
++--examples/                 Example scripts written in Pizza
 +--panda/                    Panda module
    +----/src                 All sources of Panda
-   +----pom.xml              The main maven build script for Panda module
+   +----pom.xml              The main maven build script for Pizza module
 +--panda-framework/          Panda Framework module
    +----/src                 All sources of Panda Framework
-   +----pom.xml              The main maven build script for Panda Framework module
+   +----pom.xml              The main maven build script for Pizza Framework module
 +--pom.xml                   The main maven build script
 ```
 
@@ -55,9 +55,9 @@ Latest build. Remember, API is not stable yet :o:
 
 ```xml
 <dependency>
-    <groupId>org.panda_lang</groupId>
-    <artifactId>panda</artifactId>
-    <version>indev-0.0.3-SNAPSHOT</version>
+    <groupId>org.pizza_lang</groupId>
+    <artifactId>pizza</artifactId>
+    <version>indev-6.6.6-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -65,24 +65,20 @@ The latest build of the previous edition. Remember, this is deprecated!
 
 ```xml
 <dependency>
-    <groupId>org.panda_lang</groupId>
+    <groupId>org.pizza_lang</groupId>
     <artifactId>panda</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
 
-Repository: https://repo.panda-lang.org/
+Repository: https://repo.pizza-lang.org/
 
 ```xml
 <repositories>
     <repository>
-        <id>panda-repo</id>
-        <name>Panda Repository</name>
-        <url>https://repo.panda-lang.org/</url>
+        <id>pizza-repo</id>
+        <name>Pizza Repository</name>
+        <url>https://repo.pizza-lang.org/</url>
     </repository>
 </repositories>
 ```
-
-#### Other
-- Lily the Panda IDE: https://github.com/Panda-Programming-Language/Lily <br>
-- Light: https://github.com/dzikoysk/Light
